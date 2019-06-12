@@ -41,4 +41,4 @@ addThenPrintTask = PythonOperator(
 )
 
 # Dependencies
-printA >> addThenPrint
+printATask >> addThenPrintTask

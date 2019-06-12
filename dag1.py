@@ -48,5 +48,5 @@ printGreetingsTask = PythonOperator(
 )
 
 # Dependencies
-printHelloTask >> printByeTask << printGreetings
+printHelloTask >> printByeTask << printGreetingsTask
 
